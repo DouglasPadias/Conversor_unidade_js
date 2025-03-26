@@ -1,3 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 body{
-    background-color: cadetblue;
+    background-color: #3c6382;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: #fff;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* criando uma sombra */
+    padding: 1.5rem;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.input-group{
+    margin-bottom: 1.0rem;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+input, select{
+    padding: 0.8rem;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(223, 227, 232);
+    font-size: 0.9rem;
+}
+.convert-btn{
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #3c6382;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.4s;
+}
+.convert-btn:hover{
+    opacity: 1;
+}
+.output-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+}
+.message{
+    text-align: center;
+    color: #3c6382;
+    font-size: 0.9rem;
 }
