@@ -8,6 +8,37 @@
     <title>Conversor de Unidade</title>
 </head>
 <body>
-    oi
+
+    <div class="container">
+        <h1>Conversor de Unidade</h1>
+        <div class="input-group">
+           <label for="input">Digite a quantidade:</label>
+           <input type="number" id="input" placeholder="0">
+        </div>
+        <div class="input-group">
+           <label for="from">De:</label>
+           <select name="from" id="from">
+              <option value="m">Metro(s)</option>
+              <option value="km">Kilometro(s)</option>
+              <option value="cm">Centimetro(s)</option>
+              <option value="mm">Milimetro(s)</option>
+           </select>
+        </div>
+        <div class="input-group">
+           <label for="to">Para:</label>
+           <select name="to" id="to">
+              <option value="m">Metro(s)</option>
+              <option value="km">Kilometro(s)</option>
+              <option value="cm">Centimetro(s)</option>
+              <option value="mm">Milimetro(s)</option>
+           </select>
+        </div>
+        <button class="convert-btn">Converter</button>
+        <div class="output-group">
+           <label for="output">Resultado:</label>
+           <input type="text" id="output" readonly>
+        </div>
+        <div class="message">Testando a mensagem</div>
+    </div>
 </body>
 </html>
